@@ -5,12 +5,9 @@ import java.util.List;
 
 public class HtmlParentElement extends HtmlTag {
 
-    private String tagName;
-    private String startTag;
-    private String endTag;
     private List<HtmlTag> childrenTag;
 
-    public HtmlParentElement(String tagName) {
+    HtmlParentElement(String tagName) {
         this.tagName = tagName;
         this.startTag = "";
         this.endTag = "";

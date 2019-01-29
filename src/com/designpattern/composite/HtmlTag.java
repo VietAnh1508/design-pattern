@@ -4,6 +4,12 @@ import java.util.List;
 
 public abstract class HtmlTag {
 
+    String tagName;
+
+    String startTag;
+
+    String endTag;
+
     public abstract String getTagName();
 
     public abstract void setStartTag(String tag);
